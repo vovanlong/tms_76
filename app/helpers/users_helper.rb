@@ -9,7 +9,7 @@ module UsersHelper
     options_for_select([[t(option_trainer), value_trainer], [t(option_trainee), value_trainee]])
   end
 
-  def admin? user
-    user.role.zero?
+  def load_role
+  	@roles ||= User.roles.map{|k,v| [t(".#{k}"), v]}
   end
 end

@@ -70,21 +70,41 @@ en:
       content_help: "This is the help page for the"
       content_link: "Framgia"
       href: "https://education.framgia.vn"
+    home:
+      content_h1: "Welcome to Framgia Training System"
+      content_home: "This is the home page for the"
+      content_link: "Framgia"
+      href: "https://education.framgia.vn"
+      edit: "Edit"
   sessions:
     new:
       remember: "Remember"
-      login: "Login"
+      login_title: "Login"
+      login_button: "Login"
     create:
       invalid: "Invalid Email/Password"
   users:
     index:
       allusers: "All Users"
+      addusers: "Add Users"
     edit:
       title: "Edit"
+      h1_edit: "Edit Profile"
       savechange: "Save Change"
     new:
       title: "New User"
       submit: "Change"
+    validate:
+      required_name: "Username is required."
+      maxlength_name: "Username must be less than 20"
+      minlength_name: "Username must be more than 6"
+      required_email: "Email is required"
+      email: "Please enter a valid email address"
+      required_password: "Password is required"
+      required_password_confirmation: "Password confirmation is required"
+      password_confirmation: "Password and password confirmation must be same"
+      required_school: "School is required"
+      required_graduation: "Graduation is required"
     user:
       delete: "delete"
       yousure: "You sure?"
@@ -94,6 +114,10 @@ en:
       fail: "Delete fail"
     update:
       notice: "Profile Updated"
+    form:
+      admin: "Admin"
+      trainer: "Trainer"
+      trainee: "Trainee"
   shared:
     error_messages:
       content: "The form contains"
