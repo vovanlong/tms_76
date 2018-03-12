@@ -99,7 +99,7 @@ ActiveRecord::Schema.define(version: 20180312023519) do
     t.string "password_digest"
     t.integer "role"
     t.string "school"
-    t.date "graduation"
+    t.string "graduation"
     t.string "avatar"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
