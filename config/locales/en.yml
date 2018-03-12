@@ -42,4 +42,24 @@ en:
     title500: "We're sorry, but something went wrong (500)"
     wrong: "We're sorry, but something went wrong."
     checklog: "If you are the application owner check the logs for more information."
-
+  layout:
+    home:
+      content_h1: "Welcome to Framgia Training System"
+      content_home: "This is the home page for the"
+      content_link: "Framgia"
+      href: "https://education.framgia.vn"
+    header:
+      title: "Framgia Training System"
+      content_link_home: "Home"
+      content_link_help: "Help"
+      content_link_Login: "Log in"
+    application:
+      href_logo: "https://cdn.dribbble.com/users/975753/avatars/small/334ae3b0c36422288bd22fc6ad5ce6b3.png?1445248755"
+      full_title: "Framgia Training System"
+  static_pages:
+    help:
+      title: "Help"
+      content_h1: "Welcome to Framgia Training System"
+      content_help: "This is the help page for the"
+      content_link: "Framgia"
+      href: "https://education.framgia.vn"

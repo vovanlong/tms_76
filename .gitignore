@@ -47,7 +47,4 @@ bower.json
 .rubocop_enabled.yml
 Gemfile.lock
 /config/database.yml
-
-config/settings.local.yml
-config/settings/*.local.yml
-config/environments/*.local.yml
+/bin/*
