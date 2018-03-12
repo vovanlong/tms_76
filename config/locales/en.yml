@@ -30,6 +30,9 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  application:
+    please: "Please login"
+    cantaccess: "You can't access"
   hello: "Hello world"
   projecttitle: "Tms76"
   default:
@@ -85,8 +88,12 @@ en:
       invalid: "Invalid Email/Password"
   users:
     index:
-      allusers: "All Users"
-      addusers: "Add Users"
+      all_users: "All Users"
+      add_users: "Add Users"
+      new_course: "New Course"
+      all_courses: :"All Course"
+      all_my_course: "All My Course"
+
     edit:
       title: "Edit"
       h1_edit: "Edit Profile"
@@ -121,3 +128,31 @@ en:
   shared:
     error_messages:
       content: "The form contains"
+  user_courses:
+    index:
+      all_my_courses: "My Courses"
+  trainer:
+    courses:
+      index:
+        all_course: "All Courses"
+      new:
+        title: "Create Course"
+      show:
+        course_name: "CourseName"
+        description: "Description"
+        start: "StartDate"
+        end: "EndDate"
+      course_form:
+        new: "Create"
+        name: Name
+        description: "Description"
+        start: "Start-Date"
+        end: "End-Date"
+
+    user_courses:
+      index:
+        all_my_courses: "My Courses"
+        courses: "Course"
+        you_have: "You have"
+        add_member: "Add Member"
+
