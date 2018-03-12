@@ -27,6 +27,7 @@ class UsersController < ApplicationController
   def edit; end
 
   def update
+    byebug
     return render :edit unless @user.update_attributes user_params
     flash[:success] = t ".notice"
     redirect_to @user
