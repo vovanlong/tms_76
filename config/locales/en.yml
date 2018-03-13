@@ -70,6 +70,12 @@ en:
       content_help: "This is the help page for the"
       content_link: "Framgia"
       href: "https://education.framgia.vn"
+    home:
+      content_h1: "Welcome to Framgia Training System"
+      content_home: "This is the home page for the"
+      content_link: "Framgia"
+      href: "https://education.framgia.vn"
+      edit: "Edit"
   sessions:
     new:
       remember: "Remember"
