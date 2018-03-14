@@ -6,7 +6,7 @@
 <%= link_to t(".addusers"), signup_path, class: "btn btn-warning", id: "new-user" %>
 <% end %>
 <% if trainner?(current_user)|| admin?(current_user)%>
-<%= link_to "new course", new_trainner_course_path, class: "btn btn-warning", id: "new-course" %>
+<%= link_to "new course", new_trainner_course_path, class: "btn btn-primary", id: "new-course" %>
 <% end %>
 <ul class="users">
   <%= render @users %>

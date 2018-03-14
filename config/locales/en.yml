@@ -112,3 +112,12 @@ en:
   user_courses:
     index:
       allmycourses: "My Courses"
+  trainer:  
+    courses:
+      edit:
+        title: "Edit Course"
+        course: "Edit Course"
+      course_form:
+        submit_add: "Add"
+
+
