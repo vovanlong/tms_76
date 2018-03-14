@@ -12,4 +12,8 @@ module UsersHelper
   def admin? user
     user.role.zero?
   end
+
+  def trainner? user
+    user.role == 1
+  end
 end

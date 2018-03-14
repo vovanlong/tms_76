@@ -10,7 +10,9 @@ class UsersController < ApplicationController
   def show; end
 
   def new
+    byebug
     @user = User.new
+    byebug
   end
 
   def create

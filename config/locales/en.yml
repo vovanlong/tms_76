@@ -109,3 +109,6 @@ en:
   shared:
     error_messages:
       content: "The form contains"
+  user_courses:
+    index:
+      allmycourses: "My Courses"

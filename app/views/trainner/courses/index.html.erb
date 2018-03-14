@@ -1,0 +1,9 @@
+<% provide :title, "allmycourses" %>
+<h1><%= t "allmycourses" %></h1>
+<%= will_paginate %>
+
+<ul class="users">
+  <%= render @courses %>
+</ul>
+
+<%= will_paginate %>

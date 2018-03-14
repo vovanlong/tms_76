@@ -8,7 +8,12 @@ Rails.application.routes.draw do
   post "/login", to: "sessions#create"
   delete "/logout", to: "sessions#destroy"
   get "/signup", to: "users#new"
-  resources :users do
-    resources :user_courses, as: "courses"
+
+  namespace :trainner do
+   resources :courses do
+      resource :user_courses
+    end
   end
+  resources :users
+
 end
