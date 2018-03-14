@@ -10,9 +10,7 @@ class UsersController < ApplicationController
   def show; end
 
   def new
-    byebug
     @user = User.new
-    byebug
   end
 
   def create
@@ -20,7 +18,6 @@ class UsersController < ApplicationController
     if @user.save
       log_in @user
       flash[:success] = t ".welcome"
-      redirect_to @user
     else
       render :new
     end
