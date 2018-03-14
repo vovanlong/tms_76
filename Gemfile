@@ -40,3 +40,4 @@ end
 
 gem "bootstrap-sass", "3.3.7"
 gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby]
+gem "jquery-validation-rails"
