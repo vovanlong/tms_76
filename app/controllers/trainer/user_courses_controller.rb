@@ -4,4 +4,5 @@ class Trainer::UserCoursesController < ApplicationController
   def index
     @user_courses = current_user.courses.paginate page: params[:page]
   end
+
 end

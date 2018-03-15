@@ -9,7 +9,7 @@ class Trainer::CoursesController < ApplicationController
   def show
     #find all user in a course
     list_user = Course.find(params[:id]).users
-    @trainee = list_user.trainee.paginate page: params[:page], per_page: 10
+    @trainee = list_user.trainee.paginate page: params[:page]
     @trainer = list_user.trainer
     # byebug
   end
