@@ -14,4 +14,11 @@
 //= require bootstrap
 //= require rails-ujs
 //= require turbolinks
+//= require i18n
+//= require i18n.js
+//= require i18n/translations
+//= require jquery
+//= require jquery_ujs
 //= require_tree .
+//= require jquery.validate
+//= require jquery.validate.additional-methods

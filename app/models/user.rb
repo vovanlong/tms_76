@@ -13,6 +13,7 @@ class User < ApplicationRecord
   validates :password, presence: true, length: {minimum: Settings.password_minlen}
   before_save :downcase_email
   has_secure_password
+  enum role: {admin: 0, trainer: 1, trainee: 2}
 
   class << self
     def digest string

@@ -180,5 +180,11 @@ input {
 /* Add new user */
 #new-user
 {
-  margin-left: 40px
+  margin-left: 71px;
+  position: absolute;
+  margin-top: 37px;
+}
+
+.error{
+  color: red;
 }

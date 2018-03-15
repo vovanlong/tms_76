@@ -58,7 +58,7 @@ class UsersController < ApplicationController
 
   def correct_user
     load_user
-    redirect_to root_url unless current_user?(@user) || admin?(current_user)
+    redirect_to root_url unless current_user?(@user) || current_user.admin?
   end
 
   def load_user

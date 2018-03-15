@@ -13,6 +13,7 @@ gem "faker", "1.7.3"
 gem "config"
 gem "will_paginate", "3.1.6"
 gem "bootstrap-will_paginate", "1.0.0"
+gem "i18n-js"
 
 group :development, :test do
   gem "byebug", "9.0.6", platform: :mri
@@ -40,3 +41,4 @@ end
 
 gem "bootstrap-sass", "3.3.7"
 gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby]
+gem "jquery-validation-rails"
