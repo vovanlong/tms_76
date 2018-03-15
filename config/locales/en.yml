@@ -119,7 +119,7 @@ en:
       required_graduation: "Graduation is required"
     user:
       delete: "delete"
-      yousure: "You sure?"
+      you_sure: "You sure?"
       edit: "Edit"
     destroy:
       notice: "User deleted"
@@ -147,6 +147,15 @@ en:
         description: "Description"
         start: "StartDate"
         end: "EndDate"
+      create:
+        sucess: "Course Created"
+        error: "Invalid"
+      destroy:
+        successdelete: "Course Deleted"
+        invalid: "Invalid"
+      course:
+        delete: "Delete"
+        you_sure: "Are you sure?"
       course_form:
         new: "Create"
         name: Name

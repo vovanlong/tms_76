@@ -9,7 +9,6 @@ Rails.application.routes.draw do
   namespace :trainer do
    resources :courses
   end
-
   namespace :trainer do
     resources :users, only: :show, as: "have" do
       resources :user_courses, as: "courses"
