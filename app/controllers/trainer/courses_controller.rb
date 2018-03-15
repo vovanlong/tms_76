@@ -35,7 +35,7 @@ class Trainer::CoursesController < ApplicationController
   end
 
   def update
-    byebug
+    # byebug
     return render :edit unless @course.update_attributes(course_params)
     flash[:success] = t ".success"
     redirect_to  trainer_have_courses_path(current_user)
