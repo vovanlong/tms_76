@@ -10,6 +10,6 @@ module UsersHelper
   end
 
   def load_role
-  	@roles ||= User.roles.map{|k,v| [t(".#{k}"), v]}
+    @roles ||= User.roles.map{|k, v| [t(".#{k}"), v]}
   end
 end

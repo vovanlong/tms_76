@@ -1,0 +1,19 @@
+<% provide :title, t(".all_my_courses") %>
+<h1><%= t ".all_my_courses" %></h1>
+
+<div>
+  <%= t ".you_have" %> <%= pluralize @user_courses.size, t(".courses") %>
+</div>
+
+<%= will_paginate @user_courses %>
+
+<ul class="users list-group">
+  <% @user_courses.each do |course| %>
+    <li class="list-group-item list-group-item-info">
+      <%=  link_to course.name, "#" %>&nbsp;|&nbsp;<%= link_to t(".add_member"), "#" %>
+    </li>
+  <% end %>
+</ul>
+
+<%= will_paginate @user_courses%>
+

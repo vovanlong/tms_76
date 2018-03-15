@@ -4,3 +4,4 @@ password_minlen: 6
 avatarsizeshow: 30
 remember: "1"
 users_size: 80
+page_course: 5
