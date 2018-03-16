@@ -1,0 +1,184 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   'true': 'foo'
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  application:
+    please: "Please login"
+    cantaccess: "You can't access"
+  hello: "Hello world"
+  projecttitle: "Tms76"
+  default:
+    title404: "The page you were looking for doesn't exist (404)"
+    notexist: "The page you were looking for doesn't exist."
+    mistyped: "You may have mistyped the address or the page may have moved."
+    title422: "The change you wanted was rejected (422)"
+    rejectd: "The change you wanted was rejected."
+    canttry: "Maybe you tried to change something you didn't have access to."
+    title500: "We're sorry, but something went wrong (500)"
+    wrong: "We're sorry, but something went wrong."
+    checklog: "If you are the application owner check the logs for more information."
+  layouts:
+    home:
+      content_h1: "Welcome to Framgia Training System"
+      content_home: "This is the home page for the"
+      content_link: "Framgia"
+      href: "https://education.framgia.vn"
+      edit: "Edit"
+    header:
+      title: "Framgia Training System"
+      content_link_home: "Home"
+      content_link_help: "Help"
+      content_link_Login: "Log in"
+      edit:
+      profile: "Profile"
+      users: "Users"
+      edit: "Edit"
+    footer:
+      content: "© 2017 By Framgia - Human Development Division - Education Section - All rights reserved."
+    application:
+      href_logo: "https://cdn.dribbble.com/users/975753/avatars/small/334ae3b0c36422288bd22fc6ad5ce6b3.png?1445248755"
+      full_title: "Framgia Training System"
+    menu:
+      addusers: "Add User"
+      all_users: "All Users"
+      new_course: "New Course"
+      all_courses: :"All Course"
+      all_my_course: "All My Course"
+  static_pages:
+    help:
+      title: "Help"
+      content_h1: "Welcome to Framgia Training System"
+      content_help: "This is the help page for the"
+      content_link: "Framgia"
+      href: "https://education.framgia.vn"
+    home:
+      content_h1: "Welcome to Framgia Training System"
+      content_home: "This is the home page for the"
+      content_link: "Framgia"
+      href: "https://education.framgia.vn"
+      edit: "Edit"
+  sessions:
+    new:
+      remember: "Remember"
+      login_title: "Login"
+      login_button: "Login"
+    create:
+      invalid: "Invalid Email/Password"
+  users:
+    index:
+      all_users: "All Users"
+      add_users: "Add Users"
+      new_course: "New Course"
+      all_courses: :"All Course"
+      all_my_course: "All My Course"
+    edit:
+      title: "Edit"
+      h1_edit: "Edit Profile"
+      savechange: "Save Change"
+    create:
+      welcome: "User created"
+    new:
+      title: "New User"
+      submit: "Change"
+    validate:
+      required_name: "Username is required."
+      maxlength_name: "Username must be less than 20"
+      minlength_name: "Username must be more than 6"
+      required_email: "Email is required"
+      email: "Please enter a valid email address"
+      required_password: "Password is required"
+      required_password_confirmation: "Password confirmation is required"
+      password_confirmation: "Password and password confirmation must be same"
+      required_school: "School is required"
+      required_graduation: "Graduation is required"
+    user:
+      delete: "delete"
+      you_sure: "You sure?"
+      edit: "Edit"
+    destroy:
+      notice: "User deleted"
+      fail: "Delete fail"
+    update:
+      notice: "Profile Updated"
+    form:
+      admin: "Admin"
+      trainer: "Trainer"
+      trainee: "Trainee"
+  shared:
+    error_messages:
+      content: "The form contains"
+  user_courses:
+    index:
+      all_my_courses: "My Courses"
+  trainer:
+    courses:
+      index:
+        all_course: "All Courses"
+        courses: "Course"
+        course_num: "Course num:"
+      new:
+        title: "Create Course"
+      edit:
+        title: "Edit Course"
+      show:
+        course_name: "CourseName"
+        description: "Description"
+        start: "StartDate"
+        end: "EndDate"
+        list_trainer: "Trainers"
+        list_trainee: "Trainees"
+      create:
+        sucess: "Course Created"
+        error: "Invalid"
+      update:
+        success: "Update successed"
+      destroy:
+        successdelete: "Course Deleted"
+        invalid: "Invalid"
+      course:
+        delete: "Delete"
+        you_sure: "Are you sure?"
+      course_form:
+        new: "Create"
+        name: Name
+        description: "Description"
+        start: "Start-Date"
+        end: "End-Date"
+        add_mem: "Add Member"
+    user_courses:
+      index:
+        all_my_courses: "My Courses"
+        courses: "Course"
+        edit_course: "Edit"
+        you_have: "You have"
+        add_member: "Add Member"
+
+

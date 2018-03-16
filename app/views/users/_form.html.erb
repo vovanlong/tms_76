@@ -1,0 +1,28 @@
+<%= form_for @user,html: {id: :form_id } do |f| %>
+  <%= render "shared/error_messages", object: @user %>
+
+  <%= f.label :name %>
+  <%= f.text_field :name, class: "form-control" %>
+
+  <%= f.label :email %>
+  <%= f.email_field :email, class: "form-control" %>
+
+  <%= f.label :password %>
+  <%= f.password_field :password, class: "form-control" %>
+
+  <%= f.label :password_confirmation %>
+  <%= f.password_field :password_confirmation, class: "form-control" %>
+
+  <%= f.label :position %>
+
+  <%= f.select :role, options_for_select(load_role, params[:role]), include_blank: t(".all_status") ,class: "form-control" %>
+
+  <%= f.label :school  %>
+  <%= f.text_field :school, class: "form-control" %>
+
+  <%= f.label :Graduation  %>
+  <%= f.text_field :graduation, class: "form-control" %>
+
+  <%= f.submit yield(:button_text), class: "btn btn-primary" %>
+<% end %>
+<%= javascript_include_tag "validate_add" %>
