@@ -66,6 +66,12 @@ en:
     application:
       href_logo: "https://cdn.dribbble.com/users/975753/avatars/small/334ae3b0c36422288bd22fc6ad5ce6b3.png?1445248755"
       full_title: "Framgia Training System"
+    menu:
+      addusers: "Add User"
+      all_users: "All Users"
+      new_course: "New Course"
+      all_courses: :"All Course"
+      all_my_course: "All My Course"
   static_pages:
     help:
       title: "Help"
@@ -93,7 +99,6 @@ en:
       new_course: "New Course"
       all_courses: :"All Course"
       all_my_course: "All My Course"
-
     edit:
       title: "Edit"
       h1_edit: "Edit Profile"
@@ -161,7 +166,10 @@ en:
         you_sure: "Are you sure?"
       course_form:
         new: "Create"
-        add_mem: "Add member"
+        name: Name
+        description: "Description"
+        start: "Start-Date"
+        end: "End-Date"
     user_courses:
       index:
         all_my_courses: "My Courses"
