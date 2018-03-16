@@ -39,14 +39,16 @@
         </table>
       </div>
       <div>
+        <%= will_paginate @trainee %>
         <table class="table table-striped">
-          <tbody><%= will_paginate @trainee %><%= t ".list_trainee" %><% @trainee.each do |user| %>
+          <tbody><%= t ".list_trainee" %><% @trainee.each do |user| %>
             <tr>
               <td><%= gravatar_for user, size: Settings.avatarsizeshow %><%= link_to user.name, user %>
               </td>
-            </tr><% end %><%= will_paginate @trainee %>
+            </tr><% end %>
           </tbody>
         </table>
+        <%= will_paginate @trainee %>
       </div>
     </section>
   </aside>
