@@ -103,6 +103,8 @@ en:
       title: "Edit"
       h1_edit: "Edit Profile"
       savechange: "Save Change"
+    create:
+      welcome: "User created"
     new:
       title: "New User"
       submit: "Change"
