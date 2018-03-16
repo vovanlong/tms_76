@@ -45,7 +45,7 @@ bower.json
 .rubocop.yml
 .rubocop_disabled.yml
 .rubocop_enabled.yml
-Gemfile.lock
-/config/database.yml
+#Gemfile.lock
+#/config/database.yml
 /bin/*
-db/schema.rb
+#db/schema.rb

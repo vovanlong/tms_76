@@ -4,6 +4,7 @@
     <ul id="mySidenav" class="sidenav">
     	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><span class="glyphicon glyphicon-remove"></span></a>
     	<li><%= link_to t(".addusers"), signup_path %></li>
+      <li><%= link_to t(".users"), users_path %></li>
     </ul>
   </div>
 <% end %>
@@ -14,6 +15,7 @@
       <li><%= link_to t(".new_course"), new_trainer_course_path %></li>
       <li><%= link_to t(".all_courses"),  trainer_courses_path %></li>
       <li><%= link_to t(".all_my_course"), trainer_have_courses_path(current_user) %></li>
+      <li><%= link_to t(".users"), users_path %></li>
     </ul>
   </div>
 <% end %>

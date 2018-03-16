@@ -172,6 +172,7 @@ en:
         description: "Description"
         start: "Start-Date"
         end: "End-Date"
+        add_mem: "Add Member"
     user_courses:
       index:
         all_my_courses: "My Courses"
